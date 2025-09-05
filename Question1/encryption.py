@@ -1,17 +1,3 @@
-"""
-HIT137 - Group Assignment 2 - Question 1
-Encryption/Decryption + Verification
-
-Rules (reversible by design):
-  • Lowercase a–m:  shift FORWARD by (shift1 * shift2)   within a–m (wrap over 13)
-  • Lowercase n–z:  shift BACKWARD by (shift1 + shift2) within n–z (wrap over 13)
-  • Uppercase A–M:  shift BACKWARD by shift1            within A–M (wrap over 13)
-  • Uppercase N–Z:  shift FORWARD by (shift2 ** 2)      within N–Z (wrap over 13)
-  • Non-letters unchanged.
-
-Wrapping *inside each half* guarantees a one-to-one mapping so decryption always restores the original.
-"""
-
 import sys
 from pathlib import Path
 
