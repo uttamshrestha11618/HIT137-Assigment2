@@ -1,2 +1,0 @@
-Most Stable: DARWIN-AIRPORT (1.2°C)
-Most Variable: WAGGA-WAGGA-AMO (6.9°C)
